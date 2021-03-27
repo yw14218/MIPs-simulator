@@ -1,0 +1,338 @@
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+LUI-sra01 , LUI , Fail , yf4418 , Expected retcode 110 but got retcode 235
+LW_01_stdin , LW , Success , yf4418 , stdout are the same with retcode=88
+LW_02_sign0 , LW , Success , yf4418 , stdout are the same with retcode=0
+LWL_01_sra24_87 , LWL , Success , yf4418 , stdout are the same with retcode=32
+LWL_02_lsb_21 , LWL , Success , yf4418 , stdout are the same with retcode=16
+LB_01_stdin , LB , Success , yf4418 , stdout are the same with retcode=88
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+LUI-sra01 , LUI , Fail , yf4418 , Expected retcode 110 but got retcode 235
+ADD_01 , ADD , Fail , yf4418 , stdout different or got incorrect retcode 235
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+ADD_01 , ADD , Fail , yf4418 , stdout different or got incorrect retcode 235
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+LUI-sra01 , LUI , Fail , yf4418 , Expected retcode 110 but got retcode 235
+LW_01_stdin , LW , Success , yf4418 , stdout are the same with retcode=88
+LW_02_sign0 , LW , Success , yf4418 , stdout are the same with retcode=0
+LWL_01_sra24_87 , LWL , Success , yf4418 , stdout are the same with retcode=32
+LWL_02_lsb_21 , LWL , Success , yf4418 , stdout are the same with retcode=16
+LB_01_stdin , LB , Success , yf4418 , stdout are the same with retcode=88
+ADD_01 , ADD , Fail , yf4418 , stdout different or got incorrect retcode 253
+ADD_01 , ADD , Fail , yf4418 , stdout different or got incorrect retcode 251
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+ADD_01 , ADD , Fail , yf4418 , stdout different or got incorrect retcode 251 Expected: 256-5
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+ANDI_02 , ANDI , Fail , yf4418 , stdout different or got incorrect retcode 254 Expected: 255
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 246 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ANDI_02 , ANDI , Fail , yf4418 , stdout different or got incorrect retcode 254 Expected: 255
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 246 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ADD_02_ov , ADD , Success , yf4418 , stdout are the same with retcode=128
+ADD_01 , ADD , Success , yf4418 , stdout are the same with retcode=251
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+ANDI_02 , ANDI , Fail , yf4418 , stdout different or got incorrect retcode 254 Expected: 255
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 246 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ADD_02_ov , ADD , Success , yf4418 , stdout are the same with retcode=128
+ADD_01 , ADD , Success , yf4418 , stdout are the same with retcode=251
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+LUI-sra01 , LUI , Success , yf4418 , stdout are the same with retcode=110
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ADD_02_ov , ADD , Success , yf4418 , stdout are the same with retcode=128
+ADD_01 , ADD , Success , yf4418 , stdout are the same with retcode=251
+BLEZ_01_countdown-5 , BLEZ , Success , yf4418 , stdout are the same with retcode=6
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ADD_02_ov , ADD , Success , yf4418 , stdout are the same with retcode=128
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+ANDI_01 , ANDI , Success , yf4418 , stdout are the same with retcode=0
+AND_03 , AND , Success , yf4418 , stdout are the same with retcode=0
+AND_02 , AND , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+AND_01 , AND , Success , yf4418 , stdout are the same with retcode=255
+ADDU_01 , ADDU , Success , yf4418 , stdout are the same with retcode=127
+ADDIU_01 , ADDIU , Success , yf4418 , stdout are the same with retcode=127
+ADDI_02_ov , ADDI , Success , yf4418 , stdout are the same with retcode=246
+ADDI_01 , ADDI , Success , yf4418 , stdout are the same with retcode=128
+ADD_03_ov , ADD , Success , yf4418 , stdout are the same with retcode=246
+ADD_02_ov , ADD , Success , yf4418 , stdout are the same with retcode=128
+ADD_01 , ADD , Success , yf4418 , stdout are the same with retcode=251
+BEQ_01 , BEQ , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 254
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+BEQ_01 , BEQ , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 7
+BEQ_01 , BEQ , Success , yf4418 , stdout are the same with retcode=7
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+BGEZ_02 , BGEZ , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 254
+BGEZ_02 , BGEZ , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 254
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZ_01 , BGEZ , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 7
+BEQ_01 , BEQ , Success , yf4418 , stdout are the same with retcode=7
+ANDI_02 , ANDI , Success , yf4418 , stdout are the same with retcode=254
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZ_01 , BGEZ , Success , yf4418 , stdout are the same with retcode=7
+BEQ_01 , BEQ , Success , yf4418 , stdout are the same with retcode=7
+BGEZAL_02 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 5
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 5
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 5
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 11
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 11
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 11
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 11
+BGEZAL_02 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 255
+BGEZAL_01 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 255
+BGEZ_02 , BGEZ , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 255
+BGEZ_01 , BGEZ , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 7
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 11
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 11
+BGEZAL_02 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 11
+BGEZAL_02 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 11
+BGEZAL_02 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 200 Expected: 255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 11
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 11
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Success , yf4418 , stdout are the same with retcode=17
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Success , yf4418 , stdout are the same with retcode=17
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Fail , yf4418 , stdout different or got incorrect retcode 0 Expected: 255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZ_01 , BGEZ , Success , yf4418 , stdout are the same with retcode=7
+BEQ_01 , BEQ , Success , yf4418 , stdout are the same with retcode=7
+BGEZAL_03 , BGEZAL , Success , yf4418 , stdout are the same with retcode=17
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_03 , BGEZAL , Success , yf4418 , stdout are the same with retcode=17
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 235 Expected: 10
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+DIVU_01 , DIVU , Success , yw14218 , stdout are the same with retcode=4
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 235 Expected: 10
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+DIVU_01 , DIVU , Success , yw14218 , stdout are the same with retcode=4
+BNE_01 , BNE , Fail , yw14218 , stdout different or got incorrect retcode 0 Expected: 128
+SLTU_01 , SLTU , Success , yw14218 , stdout are the same with retcode=246
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 0 Expected: 10
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+DIVU_01 , DIVU , Success , yw14218 , stdout are the same with retcode=4
+BNE_01 , BNE , Fail , yw14218 , stdout different or got incorrect retcode 0 Expected: 128
+SLTU_01 , SLTU , Success , yw14218 , stdout are the same with retcode=246
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 0 Expected: 10
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 0 Expected: 10
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 4 Expected: 10
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+j_01 , j , Fail , yw14218 , stdout different or got incorrect retcode 9 Expected: 5
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+DIVU_01 , DIVU , Success , yw14218 , stdout are the same with retcode=4
+j_01 , j , Success , yw14218 , stdout are the same with retcode=9
+DIV_01 , DIV , Success , yw14218 , stdout are the same with retcode=2
+DIVU_01 , DIVU , Success , yw14218 , stdout are the same with retcode=4
+BNE_01 , BNE , Fail , yw14218 , stdout different or got incorrect retcode 128 Expected: 96
+SLTU_01 , SLTU , Success , yw14218 , stdout are the same with retcode=246
+BGEZAL_02 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZAL_01 , BGEZAL , Success , yf4418 , stdout are the same with retcode=255
+BGEZ_02 , BGEZ , Success , yf4418 , stdout are the same with retcode=255
+BGTZ_01 , BGTZ , Fail , yw14218 , stdout different or got incorrect retcode 7 Expected: 0
+BGTZ_01 , BGTZ , Success , yw14218 , stdout are the same with retcode=7
+j_01 , j , Success , yw14218 , stdout are the same with retcode=9
+BGTZ_02 , BGTZ , Success , yw14218 , stdout are the same with retcode=0
+BGTZ_01 , BGTZ , Success , yw14218 , stdout are the same with retcode=7
+BLEZ_02 , BLEZ , Fail , yw14218 , stdout different or got incorrect retcode 235 Expected: 1
+BLEZ_01 , BLEZ , Fail , yw14218 , stdout different or got incorrect retcode 6 Expected: 7
+BGTZ_02 , BGTZ , Success , yw14218 , stdout are the same with retcode=0
+BLEZ_02 , BLEZ , Fail , yw14218 , stdout different or got incorrect retcode 235 Expected: 1
+BLEZ_01 , BLEZ , Fail , yw14218 , stdout different or got incorrect retcode 6 Expected: 7
+BGTZ_02 , BGTZ , Success , yw14218 , stdout are the same with retcode=0
+BLEZ_02 , BLEZ , Success , yw14218 , stdout are the same with retcode=1
+BLEZ_01 , BLEZ , Fail , yw14218 , stdout different or got incorrect retcode 6 Expected: 7
+BGTZ_02 , BGTZ , Success , yw14218 , stdout are the same with retcode=0
+BGTZ_01 , BGTZ , Success , yw14218 , stdout are the same with retcode=7
+BLTZ_02 , BLTZ , Fail , yw14218 , stdout different or got incorrect retcode 1 Expected: 0
+BLTZ_01 , BLTZ , Success , yw14218 , stdout are the same with retcode=1
+BLTZ_02 , BLTZ , Success , yw14218 , stdout are the same with retcode=0
+BLTZ_01 , BLTZ , Success , yw14218 , stdout are the same with retcode=1
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 5
+BLTZ_02 , BLTZ , Success , yw14218 , stdout are the same with retcode=0
+BLTZ_01 , BLTZ , Success , yw14218 , stdout are the same with retcode=1
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 5
+BLTZ_02 , BLTZ , Fail , yw14218 , stdout different or got incorrect retcode 235 Expected: 0
+BLTZ_01 , BLTZ , Success , yw14218 , stdout are the same with retcode=1
+BLEZ_02 , BLEZ , Success , yw14218 , stdout are the same with retcode=1
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 5
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 5
+BLTZ_02 , BLTZ , Success , yw14218 , stdout are the same with retcode=0
+BLTZ_01 , BLTZ , Success , yw14218 , stdout are the same with retcode=1
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 5
+BLTZ_02 , BLTZ , Success , yw14218 , stdout are the same with retcode=0
+BLTZ_01 , BLTZ , Success , yw14218 , stdout are the same with retcode=1
+BLEZ_02 , BLEZ , Success , yw14218 , stdout are the same with retcode=1
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Fail , yf4418 , stdout different or got incorrect retcode 5 Expected: 0
+BLTZ_02 , BLTZ , Success , yw14218 , stdout are the same with retcode=0
+LWL_02_lsb_21 , LWL , Fail , yf4418 , stdout different or got incorrect retcode 16 Expected: 0
+LWL_02_lsb_21 , LWL , Fail , yf4418 , stdout different or got incorrect retcode 16 Expected: 0
+MFHI_01_sra16 , MFHI , Fail , yf4418 , stdout different or got incorrect retcode 59 Expected: 0
+MFHI-01 , MFHI , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 0
+MFLO-01-sra1 , MFLO , Fail , yf4418 , stdout different or got incorrect retcode 48 Expected: 0
+MULT_02_NP , MULT , Fail , yf4418 , stdout different or got incorrect retcode 255 Expected: 0
+MULT_03_NP_lo , MULT , Fail , yf4418 , stdout different or got incorrect retcode 160 Expected: 0
+MULT_04_PP_hi , MULT , Fail , yf4418 , stdout different or got incorrect retcode 22 Expected: 0
+MULT_01_NN , MULT , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 0
+MULTU_01_F1_hi , MULTU , Fail , yf4418 , stdout different or got incorrect retcode 59 Expected: 0
+MULTU_01_FF_hi , MULTU , Fail , yf4418 , stdout different or got incorrect retcode 202 Expected: 0
+MULTU_01_FF , MULTU , Fail , yf4418 , stdout different or got incorrect retcode 5 Expected: 0
+OR_02_msb_10 , OR , Fail , yf4418 , stdout different or got incorrect retcode 101 Expected: 0
+OR_01_msb , OR , Fail , yf4418 , stdout different or got incorrect retcode 101 Expected: 0
+ORI_01_lsb_00 , ORI , Success , yf4418 , stdout are the same with retcode=0
+ORI_01_lsb_21 , ORI , Fail , yf4418 , stdout different or got incorrect retcode 33 Expected: 0
+SB_01_i2 , SB , Success , yf4418 , stdout are the same with retcode=0
+SW-lb01 , SW , Fail , yf4418 , stdout different or got incorrect retcode 245 Expected: 0
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+BLTZAL_01 , BLTZAL , Success , yf4418 , stdout are the same with retcode=5
+XORI , XORI , Fail , yf4418 , stdout different or got incorrect retcode 15 Expected: F
+SH , SH , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 255
+MFHI_01_sra16 , MFHI , Success , yf4418 , stdout are the same with retcode=59
+MFLO-01-sra1 , MFLO , Success , yf4418 , stdout are the same with retcode=48
+MULT_02_NP , MULT , Success , yf4418 , stdout are the same with retcode=255
+MULT_03_NP_lo , MULT , Success , yf4418 , stdout are the same with retcode=160
+MULT_04_PP_hi , MULT , Success , yf4418 , stdout are the same with retcode=22
+MULT-01-NN , MULT , Fail , yf4418 , stdout different or got incorrect retcode 5 Expected: QQQ
+MULTU_01_F1_hi , MULTU , Success , yf4418 , stdout are the same with retcode=59
+MULTU_01_FF_hi , MULTU , Success , yf4418 , stdout are the same with retcode=202
+MULTU_01_FF , MULTU , Success , yf4418 , stdout are the same with retcode=5
+XORI , XORI , Fail , yf4418 , stdout different or got incorrect retcode 15 Expected: F
+SH , SH , Fail , yf4418 , stdout different or got incorrect retcode 235 Expected: 255
+MFHI_01_sra16 , MFHI , Success , yf4418 , stdout are the same with retcode=59
+MFLO-01-sra1 , MFLO , Success , yf4418 , stdout are the same with retcode=48
+MULT_02_NP , MULT , Success , yf4418 , stdout are the same with retcode=255
+MULT_03_NP_lo , MULT , Success , yf4418 , stdout are the same with retcode=160
+MULT_04_PP_hi , MULT , Success , yf4418 , stdout are the same with retcode=22
+MULT-01-NN , MULT , Fail , yf4418 , stdout different or got incorrect retcode 5 Expected: QQQ
+MULTU_01_F1_hi , MULTU , Success , yf4418 , stdout are the same with retcode=59
+MULTU_01_FF_hi , MULTU , Success , yf4418 , stdout are the same with retcode=202
+MULTU_01_FF , MULTU , Success , yf4418 , stdout are the same with retcode=5
+OR_02_msb_10 , OR , Success , yf4418 , stdout are the same with retcode=101
+OR_01_msb , OR , Success , yf4418 , stdout are the same with retcode=101
+ORI_01_lsb_00 , ORI , Success , yf4418 , stdout are the same with retcode=0
+ORI_01_lsb_21 , ORI , Success , yf4418 , stdout are the same with retcode=33
+SB_01_i2 , SB , Success , yf4418 , stdout are the same with retcode=0
+SW-lb01 , SW , Success , yf4418 , stdout are the same with retcode=245
+BLTZAL_02 , BLTZAL , Success , yf4418 , stdout are the same with retcode=0
+XORI , XORI , Fail , yf4418 , stdout different or got incorrect retcode 15 Expected: F
+SH , SH , Fail , yf4418 , stdout different or got incorrect retcode 245 Expected: 255
+MFHI_01_sra16 , MFHI , Success , yf4418 , stdout are the same with retcode=59
+MFLO-01-sra1 , MFLO , Success , yf4418 , stdout are the same with retcode=48
+MULT_02_NP , MULT , Success , yf4418 , stdout are the same with retcode=255

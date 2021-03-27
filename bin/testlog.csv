@@ -1,0 +1,7 @@
+XORI , XORI , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 15
+SH , SH , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 255
+MFHI_01_sra16 , MFHI , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 59
+MFLO-01-sra1 , MFLO , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 48
+MULT_02_NP , MULT , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 255
+MULT_03_NP_lo , MULT , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 160
+MULT_04_PP_hi , MULT , Fail , yf4418 , stdout different or got incorrect retcode 1 Expected: 22
